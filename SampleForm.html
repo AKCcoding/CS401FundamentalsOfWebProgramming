@@ -1,17 +1,46 @@
+<!--Internal CSS FILES-->
+<style>
+h1
+{
+    color: blue;
+    text-align: center;
+}
+input
+{
+    padding: 5;
+    text-align: center;
+}
+div
+{
+    text-align: center;
+    border: 5px solid black;
+    background-color: yellow;
+    padding: 5px;
+}
+</style>
 <form>
+    <!--STI ENROLLMENT FORM IN HEADING 1 STYLE-->
+    <div>
     <h1>STI Enrollment Form</h1>
+    <!--LABEL for name TOTAL:5 LABELS-->
     <label for="name">Name:</label>
-    <input type="text" id="name" name="name"><br><br>
+    <input type="text" class="name"id="name" name="name" placeholder="Enter Name" required><br><br>
     
+    <!--LABEL for email -->
     <label for="email">Email:</label>
-    <input type="text" id="email" name="email"><br><br>
+    <input type="text" id="email" name="email" placeholder="E-mail" required><br></br>
     
+    <!--LABEL for phone -->
     <label for="phone">Phone:</label>
-    <input type="text" id="phone" name="phone"><br><br>
+    <input type="text" id="phone" name="phone" placeholder="Phone Number" required><br><br>
     
+    <!--LABEL for address -->
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" placeholder="Enter Address" required><br><br>
+    <!--LABEL for age -->
     <label for="age">Age:</label>
-    <input type="text" id="age" name="age"><br><br>
-    
+    <input type="text" id="age" name="age" placeholder="Enter Age" required><br><br>
+    <!--radio buttons for Gender TOTAL: 3RADIO BUTTONS-->
     <label for="gender">Gender:</label>
     <br>
     <input type="radio" id="male" name="gender" value="male">
@@ -20,11 +49,13 @@
     <label for="female">Female</label><br>
     <input type="radio" id="other" name="gender" value="other">
     <label for="other">Other</label><br><br>
-    
+    <!--comment text area-->
     <label for="comment">Comment:</label><br>
     <textarea id="comment" name="comment"></textarea><br><br>
-    
+    <!--Button for submit-->
     <input type="submit" value="Submit">
+    <!--Button for reset-->
     <input type="reset" value="Reset">
-  </form>
+    </div>
+</form>
   
