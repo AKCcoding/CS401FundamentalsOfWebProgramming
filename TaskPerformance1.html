@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
 	<title>Task Performance</title>
 	<style>
-		table {
+		@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+		table 
+		{
+			margin: auto;
+			background-color: bisque;
 			border-collapse: collapse;
 		}
-		td {
+		td 
+		{
+			font-family: "Parisienne", cursive;
 			width: 100px;
-			height: 50px;
+			height: 100px;
 			border: 5px outset black;
 			text-align: center;
 			font-weight: bold;
 			font-size: 24px;
-			background-color: orange;
-            color: aqua;
         }
         th
-        {
+		{
+			font-family: "Parisienne", cursive;
             width: 100px;
             height: 50px;
             border: 1px solid black;
-            font-family: 'Times New Roman', Times, serif;
+			font-size: 24px;
+			border: 5px outset black;
         }
+		#bday
+		{
+			color: violet;
+		}
+		#Weekends
+		{
+			color: red;
+		}
+		marquee
+		{
+			font-family: "Parisienne", cursive;
+			font-size: 50px;
+			color: crimson;
+		}
 	</style>
 </head>
-<body>
+<body background="images/2.jpg">
+	<br><br><br><br><br>
 	<table>
 		<thead>
 			<tr>
-				<th colspan="7">My Birth Month</th>
+				<th colspan="7" style="font-size: 60px;">My Birth Month</th>
 			</tr>
 			<tr>
-				<th>Sun</th>
+				<th id = "Weekends">Sun</th>
 				<th>Mon</th>
 				<th>Tue</th>
 				<th>Wed</th>
@@ -52,7 +74,7 @@
 				<td>4</td>
 			</tr>
 			<tr>
-				<td>5</td>
+				<td id = "Weekends">5</td>
 				<td>6</td>
 				<td>7</td>
 				<td>8</td>
@@ -61,33 +83,36 @@
 				<td>11</td>
 			</tr>
 			<tr>
-				<td>12</td>
+				<td id="bday"><img src="images/me.jpg" width="80px">12 My Birthday</td>
 				<td>13</td>
 				<td>14</td>
 				<td>15</td>
-				<td>16</td>
+				<td id = "Weekends">16 Davao City Day</td>
 				<td>17</td>
 				<td>18</td>
 			</tr>
 			<tr>
-				<td>19</td>
+				<td id = "Weekends">19</td>
 				<td>20</td>
-				<td>21</td>
+				<td id = "Weekends">21 March Equinox</td>
 				<td>22</td>
 				<td>23</td>
 				<td>24</td>
 				<td>25</td>
 			</tr>
 			<tr>
-				<td>26</td>
+				<td id = "Weekends">26</td>
 				<td>27</td>
 				<td>28</td>
 				<td>29</td>
 				<td>30</td>
 				<td>31</td>
-				<td>30</td>
+				<td>1</td>
 			</tr>
 		</tbody>
 	</table>
+	<marquee direction="">
+		[<b>March 12 -</b>My Birthday] [<b>March 16 -</b>Davao City Day] [<b>March 21 -</b>March Equinox]
+	</marquee>
 </body>
 </html>
