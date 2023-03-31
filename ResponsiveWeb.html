@@ -15,7 +15,7 @@
         color: #fff;
         padding: 10px;
         text-align: center;
-        width: 100%;
+        width: auto;
       }
 
       nav {
@@ -24,6 +24,7 @@
         display: flex;
         justify-content: center;
         padding: 10px;
+        width: auto;
       }
 
       nav ul {
@@ -50,7 +51,6 @@
       .grid-container {
         display: grid;
         grid-template-columns: 23% 23% 23% 23%;;
-        gap: 20px;
         gap: 50px;
         padding: 10px;
       }
@@ -67,9 +67,20 @@
       .imgs
       {
         max-width: 100%;
-        height: auto;
+        height: 70%;
+        padding: auto;
+        margin: auto;
+        border: 1px solid black;
       }
-      
+      h3
+      {
+        color: red;
+      }
+      p
+      {
+        margin: auto;
+        padding: auto;
+      }
     </style>
   </head>
   <body>
@@ -79,8 +90,8 @@
     <nav>
       <ul>
             <li><a href="#Bikes">Bike</a></li>
-            <li><a href="#">Binoculars</a></li>
-            <li><a href="#">Car for Kids</a></li>
+            <li><a href="#Binoculars">Binoculars</a></li>
+            <li><a href="#CarForKids">Car for Kids</a></li>
             <li><a href="#">Car</a></li>
             <li><a href="#">Electric Cars</a></li>
             <li><a href="#">Electronics</a></li>
@@ -91,22 +102,65 @@
             <li><a href="#">Scooter</a></li>
       </ul>
     </nav>
-    <section class="Bikes">
-      <div class="grid-container">
-        <div>LOOK 795 BLADE RS
+    <section class="Bikes" id="Bikes">
+        <h2>Bikes Section</h2>
+        <div class="grid-container">
+        <div style="text-align: center;">LOOK 795 BLADE RS
+        <img src="imgs/1.jpg" class="imgs">
+        <p>The 795 is the French brand’s aero road bike, and the frame is 300 grams less than its predecessor. The frame will fit up to 30mm tires. The top-line bike runs a SRAM Red AXS drivetrain with Corima wheels and sells for $11,000, but the Blade family starts at $3250. A frameset option is also available for $4000.</p>
+        <h3>Price : 597,740</h3>
+        </div>
+        <div style="text-align: center;">BIANCHI OLTRE XR4
+        <img src="imgs/2.jpg" class="imgs">
+        <p>When it comes to top-flight racing bikes, Bianchi has a stable of performers that includes the shapely Oltre XR4. With a 12-speed Shimano Ultegra drivetrain, there’s also a one-piece Vision Metron handlebar/stem and an Italian wheel package of Fulcrum hoops wrapped with Pirelli rubber.</p>
+        <h3>Price : 532,532</h3>
+        </div>
+        <div style="text-align: center;">BMC TIMEMACHINE
+        <img src="imgs/3.jpg" class="imgs">
+        <p>BMC redesigned the Timemachine to decrease air separation and keep air flowing across the back end of the frame and built in a storage module beneath the integrated bottle mounts. Even the front brake rotor has its own wind-cheating fairing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, pariatur.</p>
+        <h3>Price : 695497.66</h3>
+        </div>
+        <div style="text-align: center;">TREK MADONE
+        <img src="imgs/4.jpg" class="imgs">
+        <p>By combining refined Kammtail shaping for the frame tubes with the new SLR handlebar/stem combo, Trek claims a 19-watt energy savings or 60-seconds-per-hour faster than the previous generation (measured at 45 km/h). Trek said that of those 19 watts saved, 9.3 watts come from the bike itself and 9.7 watts</p>
+        <h3>Price : 434880</h3>
+        </div>
+      </div>
+    </section>
+    <section class="Binoculars" id="Binoculars">
+        <h2>Binoculars Section</h2>
+        <div class="grid-container">
+        <div style="text-align: center;">LOOK 795 BLADE RS
         <img src="imgs/1.jpg" class="imgs">
         </div>
-        <div>BIANCHI OLTRE XR4
+        <div style="text-align: center;">BIANCHI OLTRE XR4
         <img src="imgs/2.jpg" class="imgs">
         </div>
-        <div>BMC TIMEMACHINE
+        <div style="text-align: center;">BMC TIMEMACHINE
         <img src="imgs/3.jpg" class="imgs">
         </div>
-        <div>TREK MADONE
+        <div style="text-align: center;">TREK MADONE
         <img src="imgs/4.jpg" class="imgs">
         </div>
       </div>
     </section>
+    <section class="CarForKids" id="CarForKids">
+      <h2>Car for Kids</h2>
+      <div class="grid-container">
+      <div style="text-align: center;">LOOK 795 BLADE RS
+      <img src="imgs/1.jpg" class="imgs">
+      </div>
+      <div style="text-align: center;">BIANCHI OLTRE XR4
+      <img src="imgs/2.jpg" class="imgs">
+      </div>
+      <div style="text-align: center;">BMC TIMEMACHINE
+      <img src="imgs/3.jpg" class="imgs">
+      </div>
+      <div style="text-align: center;">TREK MADONE
+      <img src="imgs/4.jpg" class="imgs">
+      </div>
+    </div>
+  </section>
     <footer>
       <p>&copy; In Partial Fulfillment in Fundamental of WebProg A Responsive Website</p>
     </footer>
