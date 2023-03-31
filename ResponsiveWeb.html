@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Responsive Website</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+      }
+
+      nav {
+        background-color: #555;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      
+      nav li {
+        margin: 0 10px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 23% 23% 23% 23%;;
+        gap: 20px;
+        gap: 50px;
+        padding: 10px;
+      }
+
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+      }
+      .imgs
+      {
+        max-width: 100%;
+        height: auto;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: green;">ARNGREN.NET</h1>
+    </header>
+    <nav>
+      <ul>
+            <li><a href="#Bikes">Bike</a></li>
+            <li><a href="#">Binoculars</a></li>
+            <li><a href="#">Car for Kids</a></li>
+            <li><a href="#">Car</a></li>
+            <li><a href="#">Electric Cars</a></li>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Go Kart</a></li>
+            <li><a href="#">Lawnmowers</a></li>
+            <li><a href="#">Motorcycle</a></li>
+            <li><a href="#">Robots</a></li>
+            <li><a href="#">Scooter</a></li>
+      </ul>
+    </nav>
+    <section class="Bikes">
+      <div class="grid-container">
+        <div>LOOK 795 BLADE RS
+        <img src="imgs/1.jpg" class="imgs">
+        </div>
+        <div>BIANCHI OLTRE XR4
+        <img src="imgs/2.jpg" class="imgs">
+        </div>
+        <div>BMC TIMEMACHINE
+        <img src="imgs/3.jpg" class="imgs">
+        </div>
+        <div>TREK MADONE
+        <img src="imgs/4.jpg" class="imgs">
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; In Partial Fulfillment in Fundamental of WebProg A Responsive Website</p>
+    </footer>
+  </body>
+</html>
