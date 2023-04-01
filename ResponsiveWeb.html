@@ -11,7 +11,7 @@
       }
 
       header {
-        background-color: #333;
+        background-color:beige;
         color: #fff;
         padding: 10px;
         text-align: center;
@@ -46,19 +46,22 @@
         flex-wrap: wrap;
         justify-content: center;
         padding: 20px;
+        width:50%;
+        float: left;
+        margin: auto;
       }
 
       .grid-container {
         display: grid;
-        grid-template-columns: 23% 23% 23% 23%;;
-        gap: 50px;
+        grid-template-columns: auto;;
+        gap: 25px;
         padding: 10px;
       }
 
       footer {
         background-color: #555;
         color: white;
-        padding: 10px;
+        padding: 5px;
         text-align: center;
         bottom: 0;
         position: fixed;
@@ -67,10 +70,15 @@
       .imgs
       {
         max-width: 100%;
-        height: 70%;
+        height: auto;
         padding: auto;
         margin: auto;
         border: 1px solid black;
+      }
+      h2
+      {
+        text-align: center;
+        color:green;
       }
       h3
       {
@@ -80,6 +88,18 @@
       {
         margin: auto;
         padding: auto;
+      }
+      section .bikes
+      {
+        margin: auto;
+        padding: auto;
+      }
+      section .binoculars
+      {
+        margin: auto;
+        padding: auto;
+        width: 50%;
+        float: right;
       }
     </style>
   </head>
@@ -105,64 +125,55 @@
     <section class="Bikes" id="Bikes">
         <h2>Bikes Section</h2>
         <div class="grid-container">
-        <div style="text-align: center;">LOOK 795 BLADE RS
+        <div style="text-align: center;" class="Blade">LOOK 795 BLADE RS
         <img src="imgs/1.jpg" class="imgs">
-        <p>The 795 is the French brand’s aero road bike, and the frame is 300 grams less than its predecessor. The frame will fit up to 30mm tires. The top-line bike runs a SRAM Red AXS drivetrain with Corima wheels and sells for $11,000, but the Blade family starts at $3250. A frameset option is also available for $4000.</p>
-        <h3>Price : 597,740</h3>
+        <p>The 795 is the French brands aero road bike, and the frame is 300 grams less than its predecessor.</p>
+        <h3><u>Price : ₱597,740</u></h3>
         </div>
         <div style="text-align: center;">BIANCHI OLTRE XR4
         <img src="imgs/2.jpg" class="imgs">
-        <p>When it comes to top-flight racing bikes, Bianchi has a stable of performers that includes the shapely Oltre XR4. With a 12-speed Shimano Ultegra drivetrain, there’s also a one-piece Vision Metron handlebar/stem and an Italian wheel package of Fulcrum hoops wrapped with Pirelli rubber.</p>
-        <h3>Price : 532,532</h3>
+        <p>When it comes to top-flight racing bikes, Bianchi has a stable of performers that includes the shapely Oltre XR4. With a 12-speed Shimano
+        <h3><u>Price : ₱532,532</u></h3>
         </div>
         <div style="text-align: center;">BMC TIMEMACHINE
         <img src="imgs/3.jpg" class="imgs">
-        <p>BMC redesigned the Timemachine to decrease air separation and keep air flowing across the back end of the frame and built in a storage module beneath the integrated bottle mounts. Even the front brake rotor has its own wind-cheating fairing. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, pariatur.</p>
-        <h3>Price : 695497.66</h3>
+        <p>BMC redesigned the Timemachine to decrease air separation and keep air flowing across the back end of the frame and built in a storage</p>
+        <h3><u>Price : ₱695497.66</u></h3>
         </div>
         <div style="text-align: center;">TREK MADONE
         <img src="imgs/4.jpg" class="imgs">
-        <p>By combining refined Kammtail shaping for the frame tubes with the new SLR handlebar/stem combo, Trek claims a 19-watt energy savings or 60-seconds-per-hour faster than the previous generation (measured at 45 km/h). Trek said that of those 19 watts saved, 9.3 watts come from the bike itself and 9.7 watts</p>
-        <h3>Price : 434880</h3>
+        <p>By combining refined Kammtail shaping for the frame tubes with the new SLR handlebar/stem combo, Trek claims a 19-watt energy</p>
+        <h3><u>Price : ₱434880</u></h3>
         </div>
       </div>
     </section>
     <section class="Binoculars" id="Binoculars">
         <h2>Binoculars Section</h2>
         <div class="grid-container">
-        <div style="text-align: center;">LOOK 795 BLADE RS
-        <img src="imgs/1.jpg" class="imgs">
+        <div style="text-align: center;">NIKON MONARCH HG 10x42
+        <img src="imgs/5.jpg" class="imgs">
+        <p>The optics are top-quality and we found almost zero chromatic aberration.</p>
+        <h3><u>Price: ₱54052</u></h3>
         </div>
-        <div style="text-align: center;">BIANCHI OLTRE XR4
-        <img src="imgs/2.jpg" class="imgs">
+        <div style="text-align: center;">CANON 10x42L IS WP BINOCULAR
+        <img src="imgs/6.jpg" class="imgs">
+        They struck a great balance between quality, affordability and portability. Especially for skywatchers.
+        <h3><u>Price : ₱7334</u></h3>
         </div>
-        <div style="text-align: center;">BMC TIMEMACHINE
-        <img src="imgs/3.jpg" class="imgs">
+        <div style="text-align: center;">CELESTRON NATURE DX 12x56
+        <img src="imgs/7.jpg" class="imgs">
+        These are simply the best binoculars for skywatching, however, they have a price tag to match.
+        <h3><u>Price : ₱14234</u></h3>
         </div>
-        <div style="text-align: center;">TREK MADONE
-        <img src="imgs/4.jpg" class="imgs">
+        <div style="text-align: center;">CELESTON TRAILSEEKER 8x42 BINOCULAR
+        <img src="imgs/8.jpg" class="imgs">
+        A perfect buy if you're into wildlife spotting, bird watching and stargazing and designed with the outdoor enthusiast in mind. 
+        <h3><u>Price : ₱9720</u></h3>
         </div>
       </div>
     </section>
-    <section class="CarForKids" id="CarForKids">
-      <h2>Car for Kids</h2>
-      <div class="grid-container">
-      <div style="text-align: center;">LOOK 795 BLADE RS
-      <img src="imgs/1.jpg" class="imgs">
-      </div>
-      <div style="text-align: center;">BIANCHI OLTRE XR4
-      <img src="imgs/2.jpg" class="imgs">
-      </div>
-      <div style="text-align: center;">BMC TIMEMACHINE
-      <img src="imgs/3.jpg" class="imgs">
-      </div>
-      <div style="text-align: center;">TREK MADONE
-      <img src="imgs/4.jpg" class="imgs">
-      </div>
-    </div>
-  </section>
-    <footer>
-      <p>&copy; In Partial Fulfillment in Fundamental of WebProg A Responsive Website</p>
-    </footer>
+      <footer>
+        <p>&copy; ARNGREN.NET (Reference) Website made by Alrae Chaluangco</p>
+      </footer>
   </body>
 </html>
