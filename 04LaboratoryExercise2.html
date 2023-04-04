@@ -15,6 +15,26 @@
             font-size: 50px;
             font-family: "Times New Roman", Times, serif;
         }
+        h2
+        {
+            color: white;
+            text-align: left;
+            height: auto;
+            width: auto;
+            margin: auto;
+            padding: auto;
+        }
+        h3
+        {
+            color: white;
+        }
+        p
+        {
+            color: white;
+            text-align: left;
+            margin: auto;
+            padding: auto;
+        }
         .grid-container 
         {
             display: grid;
@@ -56,10 +76,95 @@
             width: 300px;
             height: 300px;
         }
+        video
+        {
+            float: left;
+            border: 1px solid orange;
+            margin: 20px;
+            padding: 10px;
+            max-width: auto;
+        }
+        #videointro
+        {
+            text-align: center;
+            font-size: 90px;
+        }
+        @media screen and (max-width: 600px)
+        { 
+            body
+            {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            h1
+            {
+                font-size: 30px;
+                text-align: center;
+            }
+            h2
+            {
+                font-size: 20px;
+                text-align: center;
+                margin: 50px;   
+            }
+            h3 
+            {
+                text-align: center;
+            }
+            p 
+            {
+                font-size: 15px;
+                text-align: center;
+                margin: 50px;
+            }
+            #videointro
+            {
+                display: none;
+            }
+            #paint1
+            {
+                width: 110px;
+                height: 110px;
+            }
+            #paint2
+            {
+                width: 110px;
+                height: 110px;
+            }
+            #paint3
+            {
+                width: 110px;
+                height: 110px;
+            }
+            #paint4
+            {
+                width: 110px;
+                height: 110px;
+            }
+            #paint5
+            {
+                width: 110px;
+                height: 110px;
+            }
+            #paint6
+            {
+                width: 110px;
+                height: 110px;
+            }
+            video
+            {
+                max-width: 100%;
+                width: auto;
+                height: auto;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Leon Gallery</h1>
+    <header>
+        <h1>Leon Gallery</h1>
+    </header>
     <!-- Images Section Start-->
     <div class="grid-container">
         <div><img src="For Lab 2/For Laboratory Exercise 2/Women with Baskets/4.jpg" id="paint1"></div>
@@ -69,5 +174,55 @@
         <div><img src="For Lab 2/For Laboratory Exercise 2/Women with Baskets/2.jpg" id="paint5"></div>
         <div><img src="For Lab 2/For Laboratory Exercise 2/Women with Baskets/5.jpg" id="paint6"></div>
     </div>
+    <section>
+        <br>
+        <h2>Anita Magsaysay-Ho (1914 - 2012)</h2>
+        <h2>Women with Baskets, Fish, and Crab</h2>
+        <br>
+        <p>ca 1980
+        <br>
+        oil on canvas
+        <br>
+        30” x 36” (76 cm x 91 cm)
+        </p>
+        <br>
+        <h2>SOLD: PHP 52,560,000</h2>
+        <br>
+            <p>Provenance: Acquired directly from the artist by Rosario “Charito”
+            Panganiban-Melchor. Later, Charito passed the painting on to
+            her son, Alejandro Melchor III, and his wife Lynette.</p>
+            <br>
+            <p>Exhibited: Literature:
+            Roces, Alfredo. Anita Magsaysay-Ho: In Praise of Women.
+            The Crucible Workshop. Pasig City. 2005. p. 165.</p>
+            <br>
+            <h3>ABOUT THE WORK</h3>
+            <p>
+            Women with Baskets, Fish, and Crab was among the favorite paintings of the artist, Anita Magsaysay-Ho, displayed prominently in her living room before 
+            finding a home with one of her oldest friends. The piece melds together a celebration of Filipino craft, the strength of Filipina women, and the talent 
+            and technique of one of the countrys most celebrated painters. The baskets depicted invoke the industriousness and dedication involved in basket weaving—a 
+            practice Anita considered among the most beautiful of Filipino handicrafts. A similar level of mastery and precision was needed to portray these objects. 
+            Anita later related that she found the process challenging, with careful work needed to convey the curvature and to capture the interplay of shadows and of light. 
+            The original owner of the piece was Mrs. Charito Panganiban Melchor, a childhood neighbor of Anitas whose friendship with the artist would span decades. It was 
+            ironically the storm clouds of war that brought these two young women together. In 1941, when the Japanese Imperial Army took over the residence of Dr. Lauro H. 
+            Panganiban on Agno Street in Malate, his family was forced to move to a house on Villaruel Street in Pasay. As fate would have it, their new home was just down 
+            the street from where Anita lived with her parents.Anita had just returned from her studies at the avant-garde art school, the Cranbrook Academy, in Bloomsfield 
+            Hills, Michigan, directed by Eliel Saarinen and where Lazslo Moholy-Nagy of the Bauhaus taught. She would have been brimming with ideas and excited to share them.
+             Charito was barely in her teens in 1941; and she recalls walking a block or so with her sister, Pacita, to the Magsaysay house several times a week for their 
+             painting lessons with Anita.It would be the start of a 70-year long friendship. Anitas family was a branch of the enterprising Yangco clan. Don Luis Yangco was 
+             dubbed the “King of Manila Bay and Pasig” for the number of boats and barges he owned that plied the coast of Luzon. 
+            </p>
+            <br><br><br>
+    </section>
+    <section class="AnitaVideo">
+        <video width="880" height="900" controls>
+        <source src="For Lab 2/For Laboratory Exercise 2/Anita.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br>
+
+    <p id="videointro"> A Short Video Introduction for Anita Magsaysay-Ho</p>
 </body>
 </html>
