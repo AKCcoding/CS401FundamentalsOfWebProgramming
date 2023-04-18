@@ -12,7 +12,7 @@ if (age >= 25 && age < 100)
   } 
   else 
   {
-    alert("Sorry, you must be 25 years old or older to use this website.");
+    alert("Pardon, you must be at least 25 years old above and less than 100 to proceed.");
   }
 } 
 else 
