@@ -11,4 +11,4 @@ function compareArtistAge(artistAge) {
     } else {
       console.log("They're " + artistAge + " years old and they're older than Google.");
     }
-  }
+}
