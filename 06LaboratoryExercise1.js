@@ -1,4 +1,5 @@
 const prompt = require('prompt-sync')({sigint: true});
+
 var favoriteArtistAge = prompt("What is the age of your favorite artist?");
 compareArtistAge(favoriteArtistAge);
 
